@@ -1,4 +1,10 @@
 spring:
+  data:
+    mongodb:
+      uri: mongodb://myUser:myPassword@localhost:27017/cgnMongoDb?authSource=admin
+#      uri: mongodb://localhost:27017/cgnMongoDb
+#      username: myUser
+#      password: myPassword
   kafka:
     bootstrap-servers: localhost:9092,localhost:9094,localhost:9095
     consumer:
